@@ -1,9 +1,10 @@
         /* ラジオボタン全体 */
         .radio_group {
-            margin: 1rem auto;
-            width: 240px;
-            max-width: 100%;
-            /* width: fit-content; */
+            width: -webkit-fit-content; /* Safari対策 */
+            width: fit-content;
+            margin: 1rem auto;   // 中央寄せ
+            width: 240px;     /* Safari対策 */
+            max-width: 100%;      /* Safari対策 */
         }
 
         /* 1行ごとの余白 */
