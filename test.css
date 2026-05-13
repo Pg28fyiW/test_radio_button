@@ -2,7 +2,7 @@
         .radio_group {
             width: -webkit-fit-content; /* Safari対策 */
             width: fit-content;
-            margin: 1rem auto;   // 中央寄せ
+            margin: 1rem auto;   /* 中央寄せ */
             width: 240px;     /* Safari対策 */
             max-width: 100%;      /* Safari対策 */
         }
