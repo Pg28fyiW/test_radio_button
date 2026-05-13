@@ -1,0 +1,22 @@
+        /* ラジオボタン全体 */
+        .radio_group {
+            margin: 1rem auto;
+            width: fit-content;
+        }
+
+        /* 1行ごとの余白 */
+        .radio_group > div {
+            margin-bottom: 0.5rem;
+        }
+
+        /* ?アイコン */
+        .question {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-left: 6px;
+        }
+
+        .pointer {
+            cursor: pointer;
+        }
