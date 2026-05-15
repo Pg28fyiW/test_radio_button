@@ -2,13 +2,13 @@ const subsidyTypeList = [
     {
         id: "test_radio_1",
         value: "facility",
-        label: "ラジオボタン１",
+        label: "ラジオボタン11",
         checked: true
     },
     {
         id: "test_radio_2",
         value: "service",
-        label: "ラジオボタン２",
+        label: "ラジオボタン12",
         checked: false
     }
 ];
