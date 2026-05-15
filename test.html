@@ -15,7 +15,13 @@
 
     <div class="radio_group" id="radioGroup"></div>
 
-    <script src="./test.js"></script>
+    <script>
+        if (true) {
+            const script = document.createElement("script");
+            script.src = "./test.js";
+            document.body.appendChild(script);
+        }
+    </script>
 
 </body>
 
